@@ -16,12 +16,11 @@ body {
     align-items: center;
     width: 100vw;
     height: 250vh;
+    transition: height ease 1s;
 }
 
-.page:hover,
-.page:active {
+.page:hover {
     height: 100vh;
-    transition: height ease 1s;
 }
 
 .box {
@@ -42,6 +41,7 @@ body {
     background-size: 50%;
     background-position-x: center;
     background-position-y: 200px;
+    transition: padding-bottom ease 500ms, background-position-y ease 500ms;
 }
 
 .box:hover {
@@ -53,7 +53,6 @@ body {
     padding-bottom: 50px;
     background-position-y: bottom;
     background-color: mediumpurple;
-    transition: padding-bottom ease 500ms, background-position-y ease 500ms;
 }
 
 .box:active .meow,
