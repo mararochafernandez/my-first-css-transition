@@ -55,11 +55,14 @@ body {
     transition: padding-bottom ease 500ms, background-position-y ease 500ms;
 }
 
-.box:active .meow {
+.box:active .meow,
+.box:hover .push {
     display: block;
 }
 
 .box .meow,
-.box:active .hello {
+.box .push,
+.box:hover .hello,
+.box:active .push {
     display: none;
 }
