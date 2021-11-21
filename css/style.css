@@ -18,7 +18,8 @@ body {
     height: 250vh;
 }
 
-.page:hover {
+.page:hover,
+.page:active {
     height: 100vh;
     transition: height ease 1s;
 }
